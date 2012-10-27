@@ -1,0 +1,12 @@
+void main() 
+	int a, b;
+	char c, d
+	c = 'c';
+	d = 'd;
+	scanf(a b);
+	if a > b) {
+		printf(c;
+	}
+	else
+		printf(d);
+}

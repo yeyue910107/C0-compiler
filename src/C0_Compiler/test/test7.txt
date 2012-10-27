@@ -1,0 +1,14 @@
+int add(int a, int b) {
+	return (a + b);
+}
+
+int add(int c, int d) {
+	return (c + d);
+}
+
+void main() {
+	int m, n;
+	scanf(m, n);
+	printf(add(m, n));
+	printf(sub(m, n));
+}
