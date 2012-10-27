@@ -1,0 +1,27 @@
+int fun1(int a, float b, char c) {
+	return (a);
+}
+
+void fun2() {
+	int a;
+	a = 0;
+	return (a); 
+}
+
+int fun3() {
+	float a;
+	return (a);
+}
+
+int fun4() {
+}
+
+void main() {
+	int a, b, c, d;
+	float f;
+	scanf(a, b, c, d);
+	printf(fun1(a, b));
+	printf(fun1(a, b, c, d));
+	printf(fun1(a, b, c));
+	printf(fun1(f, f, f));
+}
